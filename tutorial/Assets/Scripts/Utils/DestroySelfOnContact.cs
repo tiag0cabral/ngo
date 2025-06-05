@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class DestroySelfOnContact : MonoBehaviour
 {
-    private void onTriggerEnter2D(Collider2D col)
+    private void OnTriggerEnter2D(Collider2D col)
     {
         Destroy(gameObject);
     }

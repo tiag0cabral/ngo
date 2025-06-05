@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 7169016261508358388}
   - component: {fileID: -9147394477959737454}
   - component: {fileID: 4759826590220226524}
-  - component: {fileID: -5236297519215893677}
+  - component: {fileID: -8947992501390033206}
   - component: {fileID: 6568151879032337839}
   m_Layer: 0
   m_Name: ProjectileBase
@@ -83,7 +83,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   lifetime: 2
---- !u!114 &-5236297519215893677
+--- !u!114 &-8947992501390033206
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
