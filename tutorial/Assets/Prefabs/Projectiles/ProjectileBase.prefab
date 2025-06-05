@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 4759826590220226524}
   - component: {fileID: -8947992501390033206}
   - component: {fileID: 6568151879032337839}
-  m_Layer: 0
+  m_Layer: 6
   m_Name: ProjectileBase
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -33,7 +33,7 @@ Transform:
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!58 &-9147394477959737454
 CircleCollider2D:
