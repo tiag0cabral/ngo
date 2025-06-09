@@ -78,10 +78,10 @@ public class ProjectileLauncher : NetworkBehaviour
     }
 
     [ClientRpc]
-    private void SpawnDummyProjectileClientRpc(Vector3 spanwPos, Vector3 direction)
+    private void SpawnDummyProjectileClientRpc(Vector3 spawnPos, Vector3 direction)
     {
-        if (!IsOwner) { return; }
-        SpawnDummyProjectile(spanwPos, direction);
+        if (IsOwner) { return; }
+        SpawnDummyProjectile(spawnPos, direction);
     }
 
     private void SpawnDummyProjectile(Vector3 spawnPos, Vector3 direction)
